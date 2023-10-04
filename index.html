@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <navbar>
+      <ul class="ul-navbar">
+        <div class="header-navbar">
+          <img src="images/foto-profile.jpeg" height="50px" />
+          <h1 class="h-navbar">Yellownita</h1>
+        </div>
+        <li class="li-navbar"><a class="a-navbar" href="#home">Home</a></li>
+        <li class="li-navbar"><a class="a-navbar" href="#about">About</a></li>
+        <li class="li-navbar"><a class="a-navbar" href="#projects">Projects</a></li>
+        <li class="li-navbar"><a class="a-navbar" href="#contact">Contact</a></li>
+      </ul>
+    </navbar>
+
+    <!-- ---------Home--------- -->
+    <section id="home">
+      <div class="container-home">
+        <div class="info-home">
+          <h1 class="h1-home">HEY, I'M YELLOWNITA</h1>
+          <p class="p-home">Hi, Saya Yellownita yang merupakan developer cilik dari Karangasem</p>
+          <a href="#projects"><button class="btn-home">Projects</button></a>
+        </div>
+        <div class="sosmed">
+          <div class="sosmed-inside">
+            <a href="https://www.instagram.com/Yellownitakrdwz_/"><img src="images/instagram.png" alt="Instagram" height="35px" /></a>
+          </div>
+          <div class="sosmed-inside">
+            <a href="https://github.com/yellownita"><img src="images/github.png" alt="Github" height="35px" /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---------Home end--------- -->
+
+    <!-- ---------About-------- -->
+    <section id="about">
+      <div class="container-about">
+        <div class="header-about">
+          <h1 class="h1-about">About Me</h1>
+          <div class="line"></div>
+          <p>Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
+        </div>
+        <div class="about-inside">
+          <div class="para-about">
+            <h3>Get to know me!</h3>
+            <p class="p-about"></p>
+            <p>Hi, saya adalah <strong>Yellownita</strong>. Saya merupakan seorang siswi dengan jurusan RPL disalah satu sekolah negeri di Denpasar yaitu di SMKN1 DENPASAR.</p>
+            <p>Saya lahir di Karangasem pada tahun 2006. Alasan saya memilih jurusan ini karena saya tertarik dengan dunia perkomputeran dan juga karena teknologi informasi dan komputer akan terus ada dan diperbarui.</p>
+            <p>Selain itu juruan ini sangat menjanjikan. Bisa dikerjakan dimana-mana saja.</p>
+            <a href="#contact"><button class="btn-about">Contacts</button></a>
+          </div>
+          <div class="skills-container">
+            <h3 class="header-skill">My Skills</h3>
+            <div class="container-skill">
+              <div class="skill">
+                <p>Html</p>
+              </div>
+              <div class="skill">
+                <p>CSS</p>
+              </div>
+              <div class="skill">
+                <p>Github</p>
+              </div>
+              <div class="skill">
+                <p>Git</p>
+              </div>
+              <div class="skill">
+                <p>Php</p>
+              </div>
+              <div class="skill">
+                <p>JavaScript</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------About end--------- -->
+
+    <!-- ---------Projects--------- -->
+    <section id="projects">
+      <div class="container-projects">
+        <div class="header-projects">
+          <h1 class="h1-projects">Projects</h1>
+          <div class="line"></div>
+          <p>Here you will find some of the personal and clients projects that I created with each project containing its own case study</p>
+        </div>
+        <div class="project-row">
+          <div class="project-img-cont">
+            <img class="project-img" src="images/projects1.png" height="200px" />
+          </div>
+          <div class="decs-project">
+            <h3>Missubee</h3>
+            <p>Missubee adalah website replika dari website mixue yang asli dengan menggunakan framework bootstrap</p>
+            <a href="#"><button class="btn-projects">Case Study</button></a>
+          </div>
+        </div>
+      </section>
+        <!-- ---------Projects end--------- -->
+        <!-- ---------Projects end--------- -->
+
+        <section id="contact">
+          <div class="container-contact">
+            <div class="header-contact">
+              <h1 class="h1-contact">Contact</h1>
+              <div class="line"></div>
+              <p>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
+            </div>
+            <div class="contact__form-container">
+              <form action="#" class="contact__form" method="post">
+                <input type="hidden" name="form-name" value="form 1" />
+                <div class="contact__form-field">
+                  <label class="contact__form-label" for="name">Name</label>
+                  <input required placeholder="Enter Your Name" type="text" class="contact__form-input" name="name" id="name" />
+                </div>
+                <div class="contact__form-field">
+                  <label class="contact__form-label" for="email">Email</label>
+                  <input required placeholder="Enter Your Email" type="email" class="contact__form-input" name="email" id="email" />
+                </div>
+                <div class="contact__form-field">
+                  <label class="contact__form-label" for="message">Message</label>
+                  <textarea required cols="30" rows="10" class="contact__form-input" placeholder="Enter Your Message" name="message" id="message"></textarea>
+                </div>
+                <button type="submit" class="btn btn--theme contact__btn">Submit</button>
+              </form>
+            </div>
+          </div>
+        </section>
+        <!-- --------- end--------- -->
+
+        <!-- ---------Footer--------- -->
+        <footer class="footer">
+          <div class="footer-content">
+              <div class="footer-left">
+                  <h1>Yellownita</h1>
+                  <p>Web Developer</p>
+                  <div class="footer-social">
+                      <a href="https://github.com/yellownita" target="_blank"><img src="https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png" alt="GitHub"></a>
+                  </div>
+              </div>
+              <div class="footer-right">
+                  <h2>Contact Me</h2>
+                  <div class="footer-info">
+                      <p>Email: Yellownita11@gmail.com</p>
+                      <p>Phone: +62 8123456789</p>
+                  </div>
+              </div>
+          </div>
+          <div class="footer-bottom">
+              <p>&copy;Copyright 2023. Made by Muhammad Bagas.</p>
+          </div>
+      </footer>
+        <!-- ---------Footer end--------- -->
+      </div>
+  </body>
+</html>
