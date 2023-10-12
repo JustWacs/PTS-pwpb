@@ -5,7 +5,7 @@ Untuk Demo: <a href="https://justwacs.github.io/PTS-pwpb" target="_blank">Klik D
 
 Referensi : www.rammaheshwari.com
 
-Person I mention : <a href="https://github.com/yellownita" target="_blank">Yellownita</a>
+Person I mention : [@Yellownita](https://github.com/yellownita)
 
 
 ## Authors
